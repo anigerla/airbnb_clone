@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.card_container {
+  max-width: 60rem;
+  margin: 50px auto;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
