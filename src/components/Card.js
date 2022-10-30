@@ -5,7 +5,7 @@ import star from '../images/Star 1.png';
 export default function Card(props) {
     return (
         <div className="card">
-           <img className="card--image" src={props.img} alt="" />
+           <img className="card--image" src={`../images/${props.img}`} alt="" />
            <div className="card--stats">
                 <img className="card--star" src={star} alt="" />
                 <span>{props.score}</span>
