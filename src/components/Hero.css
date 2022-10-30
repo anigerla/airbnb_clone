@@ -11,10 +11,12 @@
     margin-top: 0px;
 }
 
-img {
+.parent img {
     align-self: center;
+    max-width: 90%;
 }
 
 h1 {
     margin-bottom: 16px;
+    max-width: 90%;
 }

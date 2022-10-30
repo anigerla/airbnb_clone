@@ -1,4 +1,4 @@
-export default [
+const data = [
     {
         id: 1, 
         title: "Life Lessons with Katie Zaferes",
@@ -8,8 +8,9 @@ export default [
             score: 5.0,
             review_count: 6
         },
-        country: "USA",
-        price: "136"
+        location: "Online",
+        price: "136",
+        openSpots: 0
     },
     {
         id: 2, 
@@ -20,8 +21,9 @@ export default [
             score: 5.0,
             review_count: 30
         },
-        country: "USA",
-        price: "215"
+        location: "Online",
+        price: "215",
+        openSpots: 2
     },
     {
         id: 3, 
@@ -32,7 +34,10 @@ export default [
             score: 4.8,
             review_count: 6
         },
-        country: "USA",
-        price: "50"
+        location: "USA",
+        price: "50",
+        openSpots: 5
     }
 ]
+
+export default data
